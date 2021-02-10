@@ -63,5 +63,5 @@ $ go test -benchtime 10s -bench '/xxhash,direct,bytes'
 ## Projects using this package
 
 - [InfluxDB](https://github.com/influxdata/influxdb)
-- [Prometheus](https://github.com/prometheus/prometheus)
+- [Prometheus](https://github.com/prometheus/prometheus/v2)
 - [FreeCache](https://github.com/coocood/freecache)

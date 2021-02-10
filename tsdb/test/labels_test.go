@@ -18,7 +18,7 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
 )
 
 func BenchmarkMapClone(b *testing.B) {

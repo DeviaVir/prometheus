@@ -30,11 +30,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/tsdb/chunks"
-	"github.com/prometheus/prometheus/v2/tsdb/encoding"
-	tsdb_errors "github.com/prometheus/prometheus/v2/tsdb/errors"
-	"github.com/prometheus/prometheus/v2/tsdb/fileutil"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunks"
+	"github.com/DeviaVir/prometheus/v2/tsdb/encoding"
+	tsdb_errors "github.com/DeviaVir/prometheus/v2/tsdb/errors"
+	"github.com/DeviaVir/prometheus/v2/tsdb/fileutil"
 )
 
 const (

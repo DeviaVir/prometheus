@@ -16,7 +16,7 @@ package storage
 import (
 	"math"
 
-	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunkenc"
 )
 
 // BufferedSeriesIterator wraps an iterator with a look-back buffer.

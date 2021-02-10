@@ -16,19 +16,19 @@
 package install
 
 import (
-	_ "github.com/prometheus/prometheus/v2/discovery/azure"        // register azure
-	_ "github.com/prometheus/prometheus/v2/discovery/consul"       // register consul
-	_ "github.com/prometheus/prometheus/v2/discovery/digitalocean" // register digitalocean
-	_ "github.com/prometheus/prometheus/v2/discovery/dns"          // register dns
-	_ "github.com/prometheus/prometheus/v2/discovery/dockerswarm"  // register dockerswarm
-	_ "github.com/prometheus/prometheus/v2/discovery/ec2"          // register ec2
-	_ "github.com/prometheus/prometheus/v2/discovery/eureka"       // register eureka
-	_ "github.com/prometheus/prometheus/v2/discovery/file"         // register file
-	_ "github.com/prometheus/prometheus/v2/discovery/gce"          // register gce
-	_ "github.com/prometheus/prometheus/v2/discovery/hetzner"      // register hetzner
-	_ "github.com/prometheus/prometheus/v2/discovery/kubernetes"   // register kubernetes
-	_ "github.com/prometheus/prometheus/v2/discovery/marathon"     // register marathon
-	_ "github.com/prometheus/prometheus/v2/discovery/openstack"    // register openstack
-	_ "github.com/prometheus/prometheus/v2/discovery/triton"       // register triton
-	_ "github.com/prometheus/prometheus/v2/discovery/zookeeper"    // register zookeeper
+	_ "github.com/DeviaVir/prometheus/v2/discovery/azure"        // register azure
+	_ "github.com/DeviaVir/prometheus/v2/discovery/consul"       // register consul
+	_ "github.com/DeviaVir/prometheus/v2/discovery/digitalocean" // register digitalocean
+	_ "github.com/DeviaVir/prometheus/v2/discovery/dns"          // register dns
+	_ "github.com/DeviaVir/prometheus/v2/discovery/dockerswarm"  // register dockerswarm
+	_ "github.com/DeviaVir/prometheus/v2/discovery/ec2"          // register ec2
+	_ "github.com/DeviaVir/prometheus/v2/discovery/eureka"       // register eureka
+	_ "github.com/DeviaVir/prometheus/v2/discovery/file"         // register file
+	_ "github.com/DeviaVir/prometheus/v2/discovery/gce"          // register gce
+	_ "github.com/DeviaVir/prometheus/v2/discovery/hetzner"      // register hetzner
+	_ "github.com/DeviaVir/prometheus/v2/discovery/kubernetes"   // register kubernetes
+	_ "github.com/DeviaVir/prometheus/v2/discovery/marathon"     // register marathon
+	_ "github.com/DeviaVir/prometheus/v2/discovery/openstack"    // register openstack
+	_ "github.com/DeviaVir/prometheus/v2/discovery/triton"       // register triton
+	_ "github.com/DeviaVir/prometheus/v2/discovery/zookeeper"    // register zookeeper
 )

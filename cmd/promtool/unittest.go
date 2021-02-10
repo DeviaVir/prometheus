@@ -30,11 +30,11 @@ import (
 	"github.com/prometheus/common/model"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/promql"
-	"github.com/prometheus/prometheus/v2/promql/parser"
-	"github.com/prometheus/prometheus/v2/rules"
-	"github.com/prometheus/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/promql"
+	"github.com/DeviaVir/prometheus/v2/promql/parser"
+	"github.com/DeviaVir/prometheus/v2/rules"
+	"github.com/DeviaVir/prometheus/v2/storage"
 )
 
 // RulesUnitTest does unit testing of rules based on the unit testing files provided.

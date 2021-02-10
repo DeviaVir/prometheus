@@ -26,9 +26,9 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/prometheus/prometheus/v2/discovery"
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/util/testutil"
+	"github.com/DeviaVir/prometheus/v2/discovery"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/util/testutil"
 )
 
 func TestMain(m *testing.M) {

@@ -23,10 +23,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/tsdb/wal"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/tsdb/wal"
 )
 
 var (

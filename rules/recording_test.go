@@ -21,11 +21,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/timestamp"
-	"github.com/prometheus/prometheus/v2/promql"
-	"github.com/prometheus/prometheus/v2/promql/parser"
-	"github.com/prometheus/prometheus/v2/util/teststorage"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/timestamp"
+	"github.com/DeviaVir/prometheus/v2/promql"
+	"github.com/DeviaVir/prometheus/v2/promql/parser"
+	"github.com/DeviaVir/prometheus/v2/util/teststorage"
 )
 
 func TestRuleEval(t *testing.T) {

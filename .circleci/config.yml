@@ -53,7 +53,7 @@ jobs:
 
   test_windows:
     executor: win/default
-    working_directory: /go/src/github.com/prometheus/prometheus/v2
+    working_directory: /go/src/github.com/DeviaVir/prometheus/v2
     steps:
     - checkout
     - run:
@@ -65,7 +65,7 @@ jobs:
         shell: bash
         command: |
           (cd web/ui && GOOS= GOARCH= go generate -mod=vendor)
-          go test -mod=vendor -vet=off -test.v `go list ./...|grep -Exv "(github.com/prometheus/prometheus/v2/discovery.*|github.com/prometheus/prometheus/v2/config|github.com/prometheus/prometheus/v2/web)"`
+          go test -mod=vendor -vet=off -test.v `go list ./...|grep -Exv "(github.com/DeviaVir/prometheus/v2/discovery.*|github.com/DeviaVir/prometheus/v2/config|github.com/DeviaVir/prometheus/v2/web)"`
         environment:
           GOGC: "20"
           GOOPTS: "-p 2 -mod=vendor"

@@ -28,13 +28,13 @@ import (
 	"github.com/prometheus/common/model"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/rulefmt"
-	"github.com/prometheus/prometheus/v2/pkg/timestamp"
-	"github.com/prometheus/prometheus/v2/promql"
-	"github.com/prometheus/prometheus/v2/promql/parser"
-	"github.com/prometheus/prometheus/v2/template"
-	"github.com/prometheus/prometheus/v2/util/strutil"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/rulefmt"
+	"github.com/DeviaVir/prometheus/v2/pkg/timestamp"
+	"github.com/DeviaVir/prometheus/v2/promql"
+	"github.com/DeviaVir/prometheus/v2/promql/parser"
+	"github.com/DeviaVir/prometheus/v2/template"
+	"github.com/DeviaVir/prometheus/v2/util/strutil"
 )
 
 const (

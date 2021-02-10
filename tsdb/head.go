@@ -30,16 +30,16 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/atomic"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/v2/tsdb/chunks"
-	tsdb_errors "github.com/prometheus/prometheus/v2/tsdb/errors"
-	"github.com/prometheus/prometheus/v2/tsdb/index"
-	"github.com/prometheus/prometheus/v2/tsdb/record"
-	"github.com/prometheus/prometheus/v2/tsdb/tombstones"
-	"github.com/prometheus/prometheus/v2/tsdb/tsdbutil"
-	"github.com/prometheus/prometheus/v2/tsdb/wal"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunkenc"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunks"
+	tsdb_errors "github.com/DeviaVir/prometheus/v2/tsdb/errors"
+	"github.com/DeviaVir/prometheus/v2/tsdb/index"
+	"github.com/DeviaVir/prometheus/v2/tsdb/record"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tombstones"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tsdbutil"
+	"github.com/DeviaVir/prometheus/v2/tsdb/wal"
 )
 
 var (

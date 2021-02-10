@@ -17,9 +17,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/v2/tsdb/chunks"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunkenc"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunks"
 )
 
 // The errors exposed.

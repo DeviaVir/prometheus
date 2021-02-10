@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/promql/parser"
-	"github.com/prometheus/prometheus/v2/util/teststorage"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/promql/parser"
+	"github.com/DeviaVir/prometheus/v2/util/teststorage"
 )
 
 func BenchmarkRangeQuery(b *testing.B) {

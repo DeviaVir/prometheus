@@ -18,8 +18,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/prometheus/prometheus/v2/tsdb"
-	"github.com/prometheus/prometheus/v2/util/testutil"
+	"github.com/DeviaVir/prometheus/v2/tsdb"
+	"github.com/DeviaVir/prometheus/v2/util/testutil"
 )
 
 // New returns a new TestStorage for testing purposes

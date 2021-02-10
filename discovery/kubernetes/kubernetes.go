@@ -40,8 +40,8 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/prometheus/prometheus/v2/discovery"
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/discovery"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
 )
 
 const (

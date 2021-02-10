@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/value"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/value"
 ) //line generated_parser.y:15
 
 //line generated_parser.y:28

@@ -26,7 +26,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/v2/util/strutil"
+	"github.com/DeviaVir/prometheus/v2/util/strutil"
 )
 
 // SDMock is the interface for the DigitalOcean mock

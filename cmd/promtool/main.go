@@ -40,11 +40,11 @@ import (
 	toolkit_web "github.com/prometheus/exporter-toolkit/web"
 	"gopkg.in/alecthomas/kingpin.v2"
 
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/discovery/file"
-	_ "github.com/prometheus/prometheus/v2/discovery/install" // Register service discovery implementations.
-	"github.com/prometheus/prometheus/v2/discovery/kubernetes"
-	"github.com/prometheus/prometheus/v2/pkg/rulefmt"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/discovery/file"
+	_ "github.com/DeviaVir/prometheus/v2/discovery/install" // Register service discovery implementations.
+	"github.com/DeviaVir/prometheus/v2/discovery/kubernetes"
+	"github.com/DeviaVir/prometheus/v2/pkg/rulefmt"
 )
 
 func main() {

@@ -26,12 +26,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/promql/parser"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/tsdb"
-	"github.com/prometheus/prometheus/v2/util/teststorage"
-	"github.com/prometheus/prometheus/v2/util/testutil"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/promql/parser"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/tsdb"
+	"github.com/DeviaVir/prometheus/v2/util/teststorage"
+	"github.com/DeviaVir/prometheus/v2/util/testutil"
 )
 
 var (

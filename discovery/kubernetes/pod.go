@@ -28,8 +28,8 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/workqueue"
 
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/util/strutil"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/util/strutil"
 )
 
 var (

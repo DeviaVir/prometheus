@@ -35,16 +35,16 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/relabel"
-	"github.com/prometheus/prometheus/v2/pkg/textparse"
-	"github.com/prometheus/prometheus/v2/pkg/timestamp"
-	"github.com/prometheus/prometheus/v2/pkg/value"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/util/teststorage"
-	"github.com/prometheus/prometheus/v2/util/testutil"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/relabel"
+	"github.com/DeviaVir/prometheus/v2/pkg/textparse"
+	"github.com/DeviaVir/prometheus/v2/pkg/timestamp"
+	"github.com/DeviaVir/prometheus/v2/pkg/value"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/util/teststorage"
+	"github.com/DeviaVir/prometheus/v2/util/testutil"
 )
 
 func TestMain(m *testing.M) {

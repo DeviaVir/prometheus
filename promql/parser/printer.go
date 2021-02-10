@@ -21,7 +21,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
 )
 
 // Tree returns a string of the tree structure of the given node.

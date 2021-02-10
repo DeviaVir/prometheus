@@ -54,18 +54,18 @@ import (
 	"go.uber.org/atomic"
 	"golang.org/x/net/netutil"
 
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/notifier"
-	"github.com/prometheus/prometheus/v2/promql"
-	"github.com/prometheus/prometheus/v2/rules"
-	"github.com/prometheus/prometheus/v2/scrape"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/template"
-	"github.com/prometheus/prometheus/v2/tsdb"
-	"github.com/prometheus/prometheus/v2/tsdb/index"
-	"github.com/prometheus/prometheus/v2/util/httputil"
-	api_v1 "github.com/prometheus/prometheus/v2/web/api/v1"
-	"github.com/prometheus/prometheus/v2/web/ui"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/notifier"
+	"github.com/DeviaVir/prometheus/v2/promql"
+	"github.com/DeviaVir/prometheus/v2/rules"
+	"github.com/DeviaVir/prometheus/v2/scrape"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/template"
+	"github.com/DeviaVir/prometheus/v2/tsdb"
+	"github.com/DeviaVir/prometheus/v2/tsdb/index"
+	"github.com/DeviaVir/prometheus/v2/util/httputil"
+	api_v1 "github.com/DeviaVir/prometheus/v2/web/api/v1"
+	"github.com/DeviaVir/prometheus/v2/web/ui"
 )
 
 // Paths that are handled by the React / Reach router that should all be served the main React app's index.html.
@@ -365,7 +365,7 @@ func New(logger log.Logger, o *Options) *Handler {
 	// with the "RedirectTrailingSlash" option (https://godoc.org/github.com/julienschmidt/httprouter#Router.RedirectTrailingSlash),
 	// and which breaks users with a --web.route-prefix that deviates from the path derived
 	// from the external URL.
-	// See https://github.com/prometheus/prometheus/v2/issues/6163#issuecomment-553855129.
+	// See https://github.com/DeviaVir/prometheus/v2/issues/6163#issuecomment-553855129.
 	router.Get("/classic", func(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, path.Join(o.ExternalURL.Path, "classic")+"/", http.StatusFound)
 	})

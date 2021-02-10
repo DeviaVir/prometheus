@@ -31,10 +31,10 @@ import (
 	"github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/v2/discovery"
-	"github.com/prometheus/prometheus/v2/discovery/refresh"
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/util/strutil"
+	"github.com/DeviaVir/prometheus/v2/discovery"
+	"github.com/DeviaVir/prometheus/v2/discovery/refresh"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/util/strutil"
 )
 
 const (

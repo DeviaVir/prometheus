@@ -28,8 +28,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"
 
-	"github.com/prometheus/prometheus/v2/tsdb/fileutil"
-	"github.com/prometheus/prometheus/v2/util/testutil"
+	"github.com/DeviaVir/prometheus/v2/tsdb/fileutil"
+	"github.com/DeviaVir/prometheus/v2/util/testutil"
 )
 
 func TestMain(m *testing.M) {

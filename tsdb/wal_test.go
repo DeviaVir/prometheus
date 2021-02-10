@@ -29,10 +29,10 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/tsdb/record"
-	"github.com/prometheus/prometheus/v2/tsdb/tombstones"
-	"github.com/prometheus/prometheus/v2/tsdb/wal"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/tsdb/record"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tombstones"
+	"github.com/DeviaVir/prometheus/v2/tsdb/wal"
 )
 
 func TestSegmentWAL_cut(t *testing.T) {

@@ -29,13 +29,13 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/v2/tsdb/chunks"
-	"github.com/prometheus/prometheus/v2/tsdb/index"
-	"github.com/prometheus/prometheus/v2/tsdb/tombstones"
-	"github.com/prometheus/prometheus/v2/tsdb/tsdbutil"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunkenc"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunks"
+	"github.com/DeviaVir/prometheus/v2/tsdb/index"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tombstones"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tsdbutil"
 )
 
 // TODO(bwplotka): Replace those mocks with remote.concreteSeriesSet.
@@ -1356,7 +1356,7 @@ func BenchmarkQuerySeek(b *testing.B) {
 	}
 }
 
-// Refer to https://github.com/prometheus/prometheus/v2/issues/2651.
+// Refer to https://github.com/DeviaVir/prometheus/v2/issues/2651.
 func BenchmarkSetMatcher(b *testing.B) {
 	cases := []struct {
 		numBlocks                   int
@@ -1488,7 +1488,7 @@ func BenchmarkSetMatcher(b *testing.B) {
 	}
 }
 
-// Refer to https://github.com/prometheus/prometheus/v2/issues/2651.
+// Refer to https://github.com/DeviaVir/prometheus/v2/issues/2651.
 func TestFindSetMatches(t *testing.T) {
 	cases := []struct {
 		pattern string
@@ -1733,7 +1733,7 @@ func TestPostingsForMatchers(t *testing.T) {
 			},
 		},
 		// Set optimization for Regex.
-		// Refer to https://github.com/prometheus/prometheus/v2/issues/2651.
+		// Refer to https://github.com/DeviaVir/prometheus/v2/issues/2651.
 		{
 			matchers: []*labels.Matcher{labels.MustNewMatcher(labels.MatchRegexp, "n", "1|2")},
 			exp: []labels.Labels{

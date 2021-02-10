@@ -21,13 +21,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/storage"
-	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/v2/tsdb/chunks"
-	tsdb_errors "github.com/prometheus/prometheus/v2/tsdb/errors"
-	"github.com/prometheus/prometheus/v2/tsdb/index"
-	"github.com/prometheus/prometheus/v2/tsdb/tombstones"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunkenc"
+	"github.com/DeviaVir/prometheus/v2/tsdb/chunks"
+	tsdb_errors "github.com/DeviaVir/prometheus/v2/tsdb/errors"
+	"github.com/DeviaVir/prometheus/v2/tsdb/index"
+	"github.com/DeviaVir/prometheus/v2/tsdb/tombstones"
 )
 
 // Bitmap used by func isRegexMetaCharacter to check whether a character needs to be escaped.
@@ -271,8 +271,8 @@ func PostingsForMatchers(ix IndexReader, ms ...*labels.Matcher) (index.Postings,
 		} else { // l=""
 			// If the matchers for a labelname selects an empty value, it selects all
 			// the series which don't have the label name set too. See:
-			// https://github.com/prometheus/prometheus/v2/issues/3575 and
-			// https://github.com/prometheus/prometheus/v2/pull/3578#issuecomment-351653555
+			// https://github.com/DeviaVir/prometheus/v2/issues/3575 and
+			// https://github.com/DeviaVir/prometheus/v2/pull/3578#issuecomment-351653555
 			it, err := inversePostingsForMatcher(ix, m)
 			if err != nil {
 				return nil, err

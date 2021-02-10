@@ -23,8 +23,8 @@ import (
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/util/strutil"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/util/strutil"
 )
 
 const (

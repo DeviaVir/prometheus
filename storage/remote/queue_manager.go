@@ -29,13 +29,13 @@ import (
 	"go.uber.org/atomic"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/relabel"
-	"github.com/prometheus/prometheus/v2/prompb"
-	"github.com/prometheus/prometheus/v2/scrape"
-	"github.com/prometheus/prometheus/v2/tsdb/record"
-	"github.com/prometheus/prometheus/v2/tsdb/wal"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/relabel"
+	"github.com/DeviaVir/prometheus/v2/prompb"
+	"github.com/DeviaVir/prometheus/v2/scrape"
+	"github.com/DeviaVir/prometheus/v2/tsdb/record"
+	"github.com/DeviaVir/prometheus/v2/tsdb/wal"
 )
 
 const (

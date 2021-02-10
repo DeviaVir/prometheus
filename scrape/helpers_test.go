@@ -16,8 +16,8 @@ package scrape
 import (
 	"context"
 
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/storage"
 )
 
 type nopAppendable struct{}

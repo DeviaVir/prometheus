@@ -36,20 +36,20 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/common/version"
 
-	"github.com/prometheus/prometheus/v2/config"
-	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
-	"github.com/prometheus/prometheus/v2/pkg/labels"
-	"github.com/prometheus/prometheus/v2/pkg/pool"
-	"github.com/prometheus/prometheus/v2/pkg/relabel"
-	"github.com/prometheus/prometheus/v2/pkg/textparse"
-	"github.com/prometheus/prometheus/v2/pkg/timestamp"
-	"github.com/prometheus/prometheus/v2/pkg/value"
-	"github.com/prometheus/prometheus/v2/storage"
+	"github.com/DeviaVir/prometheus/v2/config"
+	"github.com/DeviaVir/prometheus/v2/discovery/targetgroup"
+	"github.com/DeviaVir/prometheus/v2/pkg/labels"
+	"github.com/DeviaVir/prometheus/v2/pkg/pool"
+	"github.com/DeviaVir/prometheus/v2/pkg/relabel"
+	"github.com/DeviaVir/prometheus/v2/pkg/textparse"
+	"github.com/DeviaVir/prometheus/v2/pkg/timestamp"
+	"github.com/DeviaVir/prometheus/v2/pkg/value"
+	"github.com/DeviaVir/prometheus/v2/storage"
 )
 
 // Temporary tolerance for scrape appends timestamps alignment, to enable better
 // compression at the TSDB level.
-// See https://github.com/prometheus/prometheus/v2/issues/7846
+// See https://github.com/DeviaVir/prometheus/v2/issues/7846
 const scrapeTimestampTolerance = 2 * time.Millisecond
 
 // AlignScrapeTimestamps enables the tolerance for scrape appends timestamps described above.
@@ -1022,7 +1022,7 @@ mainLoop:
 
 		// Temporary workaround for a jitter in go timers that causes disk space
 		// increase in TSDB.
-		// See https://github.com/prometheus/prometheus/v2/issues/7846
+		// See https://github.com/DeviaVir/prometheus/v2/issues/7846
 		scrapeTime := time.Now()
 		if AlignScrapeTimestamps && interval > 100*scrapeTimestampTolerance {
 			// For some reason, a tick might have been skipped, in which case we

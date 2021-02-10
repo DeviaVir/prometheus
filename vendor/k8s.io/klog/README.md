@@ -78,7 +78,7 @@ This table is rather opinionated and build for use with the Kubernetes' [Go clie
 ## Disclaimer
 
 This project doesn't aim at covering the complete `klog` API. That being said, it should work ok for
-projects that use `k8s.io/client-go` (like [Prometheus](https://github.com/prometheus/prometheus/v2) for instance).
+projects that use `k8s.io/client-go` (like [Prometheus](https://github.com/DeviaVir/prometheus/v2) for instance).
 
 ## License
 
